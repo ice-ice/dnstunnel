@@ -1,0 +1,36 @@
+{
+  "Id": 50334,
+  "Response": true,
+  "Opcode": 0,
+  "Authoritative": false,
+  "Truncated": false,
+  "RecursionDesired": true,
+  "RecursionAvailable": false,
+  "Zero": false,
+  "AuthenticatedData": false,
+  "CheckingDisabled": false,
+  "Rcode": 0,
+  "Question": [
+    {
+      "Name": "baidu.com.",
+      "Qtype": 16,
+      "Qclass": 1
+    }
+  ],
+  "Answer": [],
+  "Ns": [],
+  "Extra": [
+    {
+      "Hdr": {
+        "Name": "baidu.com.",
+        "Rrtype": 16,
+        "Class": 1,
+        "Ttl": 0,
+        "Rdlength": 12
+      },
+      "Txt": [
+        "Hello world"
+      ]
+    }
+  ]
+}

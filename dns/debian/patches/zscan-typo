@@ -1,0 +1,17 @@
+Description: Fix for typo in message in zscan_rr.
+ Adress is spelled with an insufficient number of ds.
+Author: Tonnerre LOMBARD <tonnerre@ancient-solutions.com>
+Forwarded: yes, https://github.com/miekg/dns/pull/54
+Last-Update: 2013-09-15
+
+--- golang-dns-0.0~git20130912.orig/zscan_rr.go
++++ golang-dns-0.0~git20130912/zscan_rr.go
+@@ -1360,7 +1360,7 @@ func setWKS(h RR_Header, c chan lex, f s
+ 	l := <-c
+ 	rr.Address = net.ParseIP(l.token)
+ 	if rr.Address == nil {
+-		return nil, &ParseError{f, "bad WKS Adress", l}, ""
++		return nil, &ParseError{f, "bad WKS Address", l}, ""
+ 	}
+ 
+ 	<-c // _BLANK

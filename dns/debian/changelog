@@ -1,0 +1,5 @@
+golang-dns (0.0~git20130912-1) unstable; urgency=low
+
+  * Initial release. Closes: 722973
+
+ -- Tonnerre LOMBARD <tonnerre@ancient-solutions.com>  Sun, 15 Sep 2013 01:08:44 +0200

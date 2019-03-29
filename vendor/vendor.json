@@ -1,0 +1,164 @@
+{
+	"comment": "",
+	"ignore": "",
+	"package": [
+		{
+			"checksumSHA1": "oqLRfnW4noArAOdS5Xhz9ZNTQvU=",
+			"path": "github.com/google/gopacket",
+			"revision": "b7586607157b64351ab71d7f6ed36f71f2e83393",
+			"revisionTime": "2019-03-13T19:00:28Z"
+		},
+		{
+			"checksumSHA1": "xs5df2HquyKw2XOy4knJrF9s9Gk=",
+			"path": "github.com/google/gopacket/bytediff",
+			"revision": "b7586607157b64351ab71d7f6ed36f71f2e83393",
+			"revisionTime": "2019-03-13T19:00:28Z"
+		},
+		{
+			"checksumSHA1": "md76Zg8r+AG3bneY4aUflYaD/AE=",
+			"path": "github.com/google/gopacket/layers",
+			"revision": "b7586607157b64351ab71d7f6ed36f71f2e83393",
+			"revisionTime": "2019-03-13T19:00:28Z"
+		},
+		{
+			"checksumSHA1": "zsjSiLc6RbyztNKNUkIQc4VBNis=",
+			"path": "github.com/google/gopacket/pcap",
+			"revision": "b7586607157b64351ab71d7f6ed36f71f2e83393",
+			"revisionTime": "2019-03-13T19:00:28Z"
+		},
+		{
+			"checksumSHA1": "XNU6gQ4OSsJ657QHI4fu+Z8H+NI=",
+			"path": "github.com/google/gopacket/pcapgo",
+			"revision": "b7586607157b64351ab71d7f6ed36f71f2e83393",
+			"revisionTime": "2019-03-13T19:00:28Z"
+		},
+		{
+			"checksumSHA1": "/Z0HtLh/KerPDHnq2V5KFWtVacQ=",
+			"path": "github.com/google/gopacket/tcpassembly",
+			"revision": "b7586607157b64351ab71d7f6ed36f71f2e83393",
+			"revisionTime": "2019-03-13T19:00:28Z"
+		},
+		{
+			"checksumSHA1": "9c86Tnsp1TSSUeYgwV8Fn/e3Z0o=",
+			"path": "github.com/google/gopacket/tcpassembly/tcpreader",
+			"revision": "b7586607157b64351ab71d7f6ed36f71f2e83393",
+			"revisionTime": "2019-03-13T19:00:28Z"
+		},
+		{
+			"checksumSHA1": "AJvIV4YVdwJsl37OkDvn3RJ0x7Q=",
+			"path": "golang.org/x/text/cases",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "CDNC4vIGMUqRFRQiG4mr0j13r9g=",
+			"path": "golang.org/x/text/encoding",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "pSu/5Ju9GFj6hef4cZGXjus5xn8=",
+			"path": "golang.org/x/text/encoding/charmap",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "zeHyHebIZl1tGuwGllIhjfci+wI=",
+			"path": "golang.org/x/text/encoding/internal",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "9kP4OiCz9VQktSFvDgYnhzkAsqU=",
+			"path": "golang.org/x/text/encoding/internal/enctest",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "oZ2ULELwcY2qgTcpYWrWGsynTuQ=",
+			"path": "golang.org/x/text/encoding/internal/identifier",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "c7E1w/Acc5zj06xEuw3RBWLFFOg=",
+			"path": "golang.org/x/text/encoding/simplifiedchinese",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "1akLlP8KtLUJiZ+y7xRrH+gFldo=",
+			"path": "golang.org/x/text/encoding/unicode",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "Oiw523QkIQlZkDRXRvLHY9ZtQE8=",
+			"path": "golang.org/x/text/internal",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "dA7xqWOuUH54odG/deD+IcAHvVo=",
+			"path": "golang.org/x/text/internal/gen",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "IHCaXDIoW16mT6l/kXgsLqS6xlw=",
+			"path": "golang.org/x/text/internal/language",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "6axRqDABsdme6WuKFzR+In1epLU=",
+			"path": "golang.org/x/text/internal/language/compact",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "uDusH6hHn2VFrYyJV4vRWe1PeLQ=",
+			"path": "golang.org/x/text/internal/tag",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "ag7y2tiDc1Yx4fxBrA/CuwKZptg=",
+			"path": "golang.org/x/text/internal/testtext",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "NiXSJYqpwWFmbwcaK/KspZ2sjgw=",
+			"path": "golang.org/x/text/internal/ucd",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "Qk7dljcrEK1BJkAEZguxAbG9dSo=",
+			"path": "golang.org/x/text/internal/utf8internal",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "koQ0c/DsRZNWgaIr12hdY/E6xtE=",
+			"path": "golang.org/x/text/language",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "5NHwvOxRfJC5FiL2dg8v6SqT5BQ=",
+			"path": "golang.org/x/text/runes",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "pwfxF0hZOAIqPvaCLZu7gaRqp7A=",
+			"path": "golang.org/x/text/transform",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "9L2hNilVdxa0rZ2/A7Rv88ZKUNM=",
+			"path": "golang.org/x/text/unicode/cldr",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "Ny2CQQ9joa1ZzucIjkbQ3Nip4qM=",
+			"path": "golang.org/x/text/unicode/norm",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "U9mwV+98GP6PtRUM5u8ItUGc5ec=",
+			"path": "golang.org/x/text/unicode/rangetable",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "vf2bD4onn01O/SRSDXSlH/SRF0k=",
+			"path": "golang.org/x/text/width",
+			"revision": ""
+		}
+	],
+	"rootPath": "github.com/ice-ice/dnstunnel"
+}

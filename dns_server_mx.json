@@ -1,0 +1,79 @@
+{
+  "Id": 5102,
+  "Response": true,
+  "Opcode": 0,
+  "Authoritative": false,
+  "Truncated": false,
+  "RecursionDesired": true,
+  "RecursionAvailable": true,
+  "Zero": false,
+  "AuthenticatedData": false,
+  "CheckingDisabled": false,
+  "Rcode": 0,
+  "Question": [
+    {
+      "Name": "baidu.com.",
+      "Qtype": 15,
+      "Qclass": 1
+    }
+  ],
+  "Answer": [
+    {
+      "Hdr": {
+        "Name": "baidu.com.",
+        "Rrtype": 15,
+        "Class": 1,
+        "Ttl": 5019,
+        "Rdlength": 8
+      },
+      "Preference": 20,
+      "Mx": "mx1.baidu.com."
+    },
+    {
+      "Hdr": {
+        "Name": "baidu.com.",
+        "Rrtype": 15,
+        "Class": 1,
+        "Ttl": 5019,
+        "Rdlength": 9
+      },
+      "Preference": 20,
+      "Mx": "jpmx.baidu.com."
+    },
+    {
+      "Hdr": {
+        "Name": "baidu.com.",
+        "Rrtype": 15,
+        "Class": 1,
+        "Ttl": 5019,
+        "Rdlength": 16
+      },
+      "Preference": 15,
+      "Mx": "mx.n.shifen.com."
+    },
+    {
+      "Hdr": {
+        "Name": "baidu.com.",
+        "Rrtype": 15,
+        "Class": 1,
+        "Ttl": 5019,
+        "Rdlength": 14
+      },
+      "Preference": 10,
+      "Mx": "mx.maillb.baidu.com."
+    },
+    {
+      "Hdr": {
+        "Name": "baidu.com.",
+        "Rrtype": 15,
+        "Class": 1,
+        "Ttl": 5019,
+        "Rdlength": 9
+      },
+      "Preference": 20,
+      "Mx": "mx50.baidu.com."
+    }
+  ],
+  "Ns": [],
+  "Extra": []
+}

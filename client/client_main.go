@@ -1,4 +1,4 @@
-package main
+package client
 
 import (
 	"encoding/json"
@@ -24,10 +24,15 @@ var (
 	//normalDnsServer = "114.114.114.114:53" //正常的114dns服务器
 	//normalHost      = "baidu.com."         //最后面这个.不能少
 
-	DnsServerHost = "127.0.0.1:8053"   //dns服务端地址
-	RootHost      = "baidu.com"        //根域名 例如baidu.com
-	aesClientKey  = "1111111111111111" //加密钥匙 务必16位
-	httpPortStr   = "8081"             //http 服务的端口号
+	// DnsServerHost = "127.0.0.1:8053"   //dns服务端地址
+	// RootHost      = "baidu.com"        //根域名 例如baidu.com
+	// aesClientKey  = "1111111111111111" //加密钥匙 务必16位
+	// httpPortStr   = "8081"             //http 服务的端口号
+
+	DnsServerHost = "DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD" //32位占位
+	RootHost      = "AAAAAAAAAAAAAAAA"
+	aesClientKey  = "1111111111111111"
+	httpPortStr   = "BBBBB"
 
 	SendServerChan    = make(chan string, 300) //先进先出 队列
 	ReadTimeout       int                      //连接读取超时时间 秒

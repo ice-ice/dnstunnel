@@ -36,11 +36,16 @@ var (
 	lock            sync.Mutex
 	logLevel        = log.INFO //日志级别  ALL，DEBUG，INFO，WARN，ERROR，FATAL，OFF 级别由低到高
 
-	listenHost   = "baidu.com"        //监听域名
-	aesServerKey = "1111111111111111" //加密钥匙 务必16位
-	httpPortStr  = "8080"             //http 服务的端口号
+	//listenHost   = "baidu.com"        //监听域名
+	//aesServerKey = "1111111111111111" //加密钥匙 务必16位
+	//httpPortStr  = "8080"             //http 服务的端口号
+	//serverPort   = "8053"             //udp端口
 
-	OFF = make(chan bool, 1) //优雅退出 向该管道写入数据
+	listenHost   = "AAAAAAAAAAAAAAAA"
+	aesServerKey = "1111111111111111"
+	httpPortStr  = "BBBBB"
+	serverPort   = "CCCCC"
+	OFF          = make(chan bool, 1)
 )
 
 func main() {
@@ -68,7 +73,7 @@ func main() {
 	//开启监听
 	go func() {
 		dns.HandleFunc(listenHost, HandlerServer)
-		err := dns.ListenAndServe(":8053", "udp", nil)
+		err := dns.ListenAndServe(":"+serverPort, "udp", nil)
 		if err != nil {
 			log.Error("DNS Server Error: ", err.Error())
 			os.Exit(0)

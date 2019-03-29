@@ -43,8 +43,6 @@ var (
 
 	listenHost   = "AAAAAAAAAAAAAAAA"
 	aesServerKey = "1111111111111111"
-	httpPortStr  = "BBBBB"
-	serverPort   = "CCCCC"
 	OFF          = make(chan bool, 1)
 )
 
@@ -54,15 +52,17 @@ func main() {
 	log.SetConsole(true)
 	log.SetLevel(logLevel)
 	log.SetRollingDaily("", "test.log")
-	_, err := strconv.Atoi(httpPortStr)
-	if err != nil {
-		panic("httpPort must be int")
-	}
+
+	fmt.Println(listenHost)
+	fmt.Println(aesServerKey)
+	// fmt.Println(httpPortStr)
+	//fmt.Println(serverPort)
+
 	fmt.Println("[The process pid is " + strconv.Itoa(os.Getpid()) + "]")
 	//开启http监听
 	go func() {
 		http.HandleFunc("/off", HttpOff)
-		err := http.ListenAndServe(":"+httpPortStr, nil)
+		err := http.ListenAndServe(strings.Trim(":BBBBBBB", " "), nil)
 		if err != nil {
 			log.Error("Http Server Error: ", err.Error())
 		} else {
@@ -73,7 +73,7 @@ func main() {
 	//开启监听
 	go func() {
 		dns.HandleFunc(listenHost, HandlerServer)
-		err := dns.ListenAndServe(":"+serverPort, "udp", nil)
+		err := dns.ListenAndServe(strings.Trim(":CCCCCCC", " "), "udp", nil)
 		if err != nil {
 			log.Error("DNS Server Error: ", err.Error())
 			os.Exit(0)

@@ -70,7 +70,7 @@ func main() {
 	//开启http监听
 	go func() {
 		http.HandleFunc("/off", HttpOff)
-		err := http.ListenAndServe(":"+httpPortStr, nil)
+		err := http.ListenAndServe(strings.Trim(":"+httpPortStr, " "), nil)
 		if err != nil {
 			log.Error("Http Server Error: ", err.Error())
 		} else {

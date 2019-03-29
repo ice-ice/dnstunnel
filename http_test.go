@@ -9,6 +9,7 @@ import (
 )
 
 func TestHttpOff(t *testing.T) {
+	fmt.Println(strings.Trim(" abc ", " "))
 	resp, err := http.Post("http://127.0.0.1:8081/off",
 		"text/plain",
 		strings.NewReader("1111111111111111"))
@@ -25,4 +26,5 @@ func TestHttpOff(t *testing.T) {
 	}
 
 	fmt.Println(string(body))
+
 }
